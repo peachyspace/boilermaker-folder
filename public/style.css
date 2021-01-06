@@ -1,0 +1,10 @@
+h1 {
+  color: rgb(255, 255, 255);
+}
+body {
+  background: linear-gradient(#7a9eed, #83ac90);
+  height: 100vh;
+  padding: 0;
+  margin-left: 5.3em;
+  width: 100vw;
+}
