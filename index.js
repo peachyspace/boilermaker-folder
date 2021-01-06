@@ -10,7 +10,7 @@ const dbStore = new SequelizeStore({ db: db });
 // sync so that our session table gets created
 dbStore.sync();
 
-// plug the store into our session middleware
+// Plug the store into our session middleware
 app.use(
   session({
     secret: process.env.SESSION_SECRET || "a wildly insecure secret",
