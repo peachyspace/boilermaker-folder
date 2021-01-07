@@ -14,10 +14,11 @@ module.exports = {
         exclude: /(node_modules|bower_components)/,
         loader: "babel-loader",
         options: {
-          presets: ["@babel/preset-env", "@babel/preset-react"],
+          presets: ["react", "es2015"],
         },
       },
-      // use the style-loader/css-loader combos for     anything matching the .css extension "react", "es2015"
+      // use the style-loader/css-loader combos for     anything matching the .css extension
+      //"@babel/preset-env", "@babel/preset-react"
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
